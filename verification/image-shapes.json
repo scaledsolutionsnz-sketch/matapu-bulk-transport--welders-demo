@@ -1,0 +1,446 @@
+[
+  {
+    "width": 375,
+    "data": {
+      "images": [
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 760,
+          "naturalRatio": 1.334519572953737,
+          "ratio": "auto 1280 / 960",
+          "service": false,
+          "src": "img/business-12.jpg",
+          "w": 375
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 760,
+          "naturalRatio": 0.5630630630630631,
+          "ratio": "auto 720 / 1280",
+          "service": false,
+          "src": "img/business-11.jpg",
+          "w": 375
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 760,
+          "naturalRatio": 1,
+          "ratio": "auto 720 / 720",
+          "service": false,
+          "src": "img/about-real-truck.jpg",
+          "w": 375
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 222,
+          "naturalRatio": 1.5060240963855422,
+          "ratio": "auto 900 / 599",
+          "service": true,
+          "src": "img/card-fert.jpg",
+          "w": 333
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 222,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-feed.jpg",
+          "w": 333
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 222,
+          "naturalRatio": 1.334519572953737,
+          "ratio": "auto 900 / 675",
+          "service": true,
+          "src": "img/card-blend.jpg",
+          "w": 333
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 222,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-maize.jpg",
+          "w": 333
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 222,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-weld.jpg",
+          "w": 333
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 222,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-workshop.jpg",
+          "w": 333
+        },
+        {
+          "distorted": false,
+          "fit": "fill",
+          "h": 335,
+          "naturalRatio": 1,
+          "ratio": "auto 720 / 720",
+          "service": false,
+          "src": "img/about-real-truck.jpg",
+          "w": 335
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 251.25,
+          "naturalRatio": 1.334519572953737,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-12.jpg",
+          "w": 335
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 251.25,
+          "naturalRatio": 0.5630630630630631,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-11.jpg",
+          "w": 335
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 251.25,
+          "naturalRatio": 1.7857142857142858,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-1.jpg",
+          "w": 335
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 375.625,
+          "naturalRatio": 1.3392857142857142,
+          "ratio": "auto 1600 / 1199",
+          "service": false,
+          "src": "img/banner-field.jpg",
+          "w": 375
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 768,
+    "data": {
+      "images": [
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 1000,
+          "naturalRatio": 1.3333333333333333,
+          "ratio": "auto 1280 / 960",
+          "service": false,
+          "src": "img/business-12.jpg",
+          "w": 768
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 1000,
+          "naturalRatio": 0.5626373626373626,
+          "ratio": "auto 720 / 1280",
+          "service": false,
+          "src": "img/business-11.jpg",
+          "w": 768
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 1000,
+          "naturalRatio": 1,
+          "ratio": "auto 720 / 720",
+          "service": false,
+          "src": "img/about-real-truck.jpg",
+          "w": 768
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 234,
+          "naturalRatio": 1.5058823529411764,
+          "ratio": "auto 900 / 599",
+          "service": true,
+          "src": "img/card-fert.jpg",
+          "w": 351
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 234,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-feed.jpg",
+          "w": 351
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 234,
+          "naturalRatio": 1.3333333333333333,
+          "ratio": "auto 900 / 675",
+          "service": true,
+          "src": "img/card-blend.jpg",
+          "w": 351
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 234,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-maize.jpg",
+          "w": 351
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 234,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-weld.jpg",
+          "w": 351
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 234,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-workshop.jpg",
+          "w": 351
+        },
+        {
+          "distorted": false,
+          "fit": "fill",
+          "h": 728,
+          "naturalRatio": 1,
+          "ratio": "auto 720 / 720",
+          "service": false,
+          "src": "img/about-real-truck.jpg",
+          "w": 728
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 168.984375,
+          "naturalRatio": 1.3333333333333333,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-12.jpg",
+          "w": 225.328125
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 168.984375,
+          "naturalRatio": 0.5630498533724341,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-11.jpg",
+          "w": 225.328125
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 168.984375,
+          "naturalRatio": 1.7777777777777777,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-1.jpg",
+          "w": 225.328125
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 375.625,
+          "naturalRatio": 1.3333333333333333,
+          "ratio": "auto 1600 / 1199",
+          "service": false,
+          "src": "img/banner-field.jpg",
+          "w": 768
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 1440,
+    "data": {
+      "images": [
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 1000,
+          "naturalRatio": 1.3333333333333333,
+          "ratio": "auto 1280 / 960",
+          "service": false,
+          "src": "img/business-12.jpg",
+          "w": 1440
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 1000,
+          "naturalRatio": 0.5625,
+          "ratio": "auto 720 / 1280",
+          "service": false,
+          "src": "img/business-11.jpg",
+          "w": 1440
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 1000,
+          "naturalRatio": 1,
+          "ratio": "auto 720 / 720",
+          "service": false,
+          "src": "img/about-real-truck.jpg",
+          "w": 1440
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 228.875,
+          "naturalRatio": 1.5031315240083507,
+          "ratio": "auto 900 / 599",
+          "service": true,
+          "src": "img/card-fert.jpg",
+          "w": 343.328125
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 228.875,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-feed.jpg",
+          "w": 343.328125
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 228.890625,
+          "naturalRatio": 1.3333333333333333,
+          "ratio": "auto 900 / 675",
+          "service": true,
+          "src": "img/card-blend.jpg",
+          "w": 343.34375
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 228.875,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-maize.jpg",
+          "w": 343.328125
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 228.875,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-weld.jpg",
+          "w": 343.328125
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 228.890625,
+          "naturalRatio": 1.5,
+          "ratio": "auto 900 / 600",
+          "service": true,
+          "src": "img/card-workshop.jpg",
+          "w": 343.34375
+        },
+        {
+          "distorted": false,
+          "fit": "fill",
+          "h": 465.453125,
+          "naturalRatio": 1,
+          "ratio": "auto 720 / 720",
+          "service": false,
+          "src": "img/about-real-truck.jpg",
+          "w": 465.453125
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 268.984375,
+          "naturalRatio": 1.3333333333333333,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-12.jpg",
+          "w": 358.65625
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 269,
+          "naturalRatio": 0.5625,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-11.jpg",
+          "w": 358.671875
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 268.984375,
+          "naturalRatio": 1.7777777777777777,
+          "ratio": "4 / 3",
+          "service": false,
+          "src": "img/business-1.jpg",
+          "w": 358.65625
+        },
+        {
+          "distorted": false,
+          "fit": "cover",
+          "h": 328.28125,
+          "naturalRatio": 1.3358070500927643,
+          "ratio": "auto 1600 / 1199",
+          "service": false,
+          "src": "img/banner-field.jpg",
+          "w": 1440
+        }
+      ],
+      "overflow": false
+    }
+  }
+]
