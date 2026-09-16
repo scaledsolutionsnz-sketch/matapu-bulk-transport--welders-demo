@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_9pzDzhfRt888gWYWVAZVTyHp6DFd",
+    "url": "https://matapu-bulk-transport-welders-demo-f73rj0c99-scaled-solutions.vercel.app",
+    "inspectorUrl": "https://vercel.com/scaled-solutions/matapu-bulk-transport--welders-demo/9pzDzhfRt888gWYWVAZVTyHp6DFd",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_9pzDzhfRt888gWYWVAZVTyHp6DFd"
+  },
+  "message": "Deployment matapu-bulk-transport-welders-demo-f73rj0c99-scaled-solutions.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel curl https://matapu-bulk-transport-welders-demo-f73rj0c99-scaled-solutions.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect matapu-bulk-transport-welders-demo-f73rj0c99-scaled-solutions.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
+npm notice run npx
+npm notice run 'vc' deploy --prod --yes
+Vercel CLI 59.19.0 (Node.js 26.7.0)
+Deploying matapu-bulk-transport--welders-demo
+Uploading [--------------------] (0.0B/18.6KB)
+Uploading [=================---] (16.0KB/18.6KB)
+Uploading [====================] (18.6KB/18.6KB)
+  Inspect         https://vercel.com/scaled-solutions/matapu-bulk-transport--welders-demo/9pzDzhfRt888gWYWVAZVTyHp6DFd
+  Production      https://matapu-bulk-transport-welders-demo-f73rj0c99-scaled-solutions.vercel.app
+Building…
+Building…
+[2K[1A[2K[G  Production      https://matapu-bulk-transport-welders-demo-f73rj0c99-scaled-solutions.vercel.app
+Completing…
+▲ Aliased         https://matapu-bulk-transport-welders-demo.vercel.app
+
+Live CSS verified identical to local source.
