@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Matapu Bulk Transport &amp; Welders | Bulk Cartage &amp; Welding, Kaponga</title>
+<meta content="Bulk fertiliser, stock feed, maize and Osflo cartage across South Taranaki, plus welding and rust repairs. Truck and trailer units based at Matapu, Kaponga. Call 027 653 3280 for a quote." name="description"/>
+<meta content="Matapu Bulk Transport &amp; Welders | Bulk Cartage &amp; Welding, Kaponga" property="og:title"/>
+<meta content="Bulk fert, feed, maize and Osflo carted across South Taranaki. Welding and rust repairs in the workshop at Matapu." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="img/about-real-truck.jpg" property="og:image"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23122346'/%3E%3Ctext x='32' y='46' font-family='Arial Black,sans-serif' font-size='36' font-weight='900' fill='%23f4f2ed' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&amp;family=Figtree:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --ink:#131720;
+  --ink-2:#1a2130;
+  --ink-3:#0e1219;
+  --bone:#f4f2ed;
+  --paper:#fbfaf7;
+  --accent:#2b62cc;
+  --accent-strong:#3d77e6;
+  --accent-hover:#2149a3;
+  --accent-soft:#8fb0ee;
+  --line:rgba(244,242,237,.14);
+  --line-dark:rgba(19,23,32,.14);
+  --text-on-dark:#e9e7e1;
+  --text-dim:#a9adb8;
+  --text-dark:#232833;
+  --text-dark-dim:#5a5f6b;
+  --radius:2px;
+  --display:'Teko',sans-serif;
+  --body:'Figtree',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+img{image-orientation:from-image;max-width:100%}
+body{
+  font-family:var(--body);
+  background:var(--ink);
+  color:var(--text-on-dark);
+  font-size:16px;
+  line-height:1.7;
+  overflow-x:hidden;
+}
+::selection{background:var(--accent);color:#fff}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);text-transform:uppercase;line-height:1.02;letter-spacing:.01em;font-weight:600}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* ---------- opening overlay ---------- */
+#intro{position:fixed;inset:0;background:var(--ink-3);z-index:200;display:flex;align-items:center;justify-content:center;transition:opacity .7s ease,visibility .7s}
+#intro.gone{opacity:0;visibility:hidden;pointer-events:none}
+#intro span{font-family:var(--display);font-size:2.2rem;text-transform:uppercase;color:var(--bone);letter-spacing:.14em;opacity:0;animation:introIn .8s ease .1s forwards}
+@keyframes introIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+
+/* ---------- nav ---------- */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:rgba(14,18,25,.82);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.logo{display:flex;align-items:baseline;gap:10px;text-decoration:none;min-width:0}
+.logo b{font-family:var(--display);font-size:1.9rem;font-weight:700;color:var(--bone);letter-spacing:.04em;line-height:1}
+.logo b em{font-style:normal;color:var(--accent-strong)}
+.logo span{font-size:.72rem;color:var(--text-dim);letter-spacing:.05em;white-space:nowrap}
+.nav-links{display:flex;gap:26px;list-style:none}
+.nav-links a{text-decoration:none;font-size:.92rem;font-weight:500;color:var(--text-dim);transition:color .25s}
+.nav-links a:hover{color:var(--bone)}
+.nav-call{
+  display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;
+  background:var(--accent);color:#fff;text-decoration:none;font-weight:600;font-size:.9rem;
+  border-radius:var(--radius);line-height:1;transition:background .25s;white-space:nowrap;
+}
+.nav-call:hover{background:var(--accent-hover)}
+.burger{display:none;background:none;border:1px solid var(--line);border-radius:var(--radius);width:44px;height:44px;cursor:pointer;color:var(--bone);align-items:center;justify-content:center}
+#mobile-menu{display:none;background:var(--ink-3);border-bottom:1px solid var(--line)}
+#mobile-menu.open{display:block}
+#mobile-menu a{display:block;padding:15px 20px;text-decoration:none;color:var(--text-on-dark);font-weight:500;border-top:1px solid var(--line)}
+#mobile-menu a:hover{color:var(--accent-soft)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100dvh;display:flex;align-items:center;background:var(--ink-3);overflow:hidden}
+.hero-slides{position:absolute;inset:0}
+.hero-slide{position:absolute;inset:0;opacity:0;transition:opacity 1.6s ease}
+.hero-slide.on{opacity:1}
+.hero-slide img{width:100%;height:100%;object-fit:cover}
+.hero-scrim{position:absolute;inset:0;background:linear-gradient(100deg,rgba(14,18,25,.88) 0%,rgba(14,18,25,.62) 48%,rgba(18,35,70,.45) 100%)}
+.hero-inner{position:relative;z-index:2;width:100%;padding:120px 20px 72px}
+.hero-eyebrow{font-size:.85rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-soft);margin-bottom:14px}
+.hero h1{font-size:clamp(3rem,7.5vw,5.4rem);max-width:20ch;color:var(--bone)}
+.hero p{margin:18px 0 30px;max-width:46ch;font-size:1.08rem;color:var(--text-dim)}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:52px;padding:0 26px;border-radius:var(--radius);
+  font-family:var(--body);font-weight:600;font-size:1rem;text-decoration:none;line-height:1;
+  transition:transform .2s,background .25s,border-color .25s;cursor:pointer;border:0;
+}
+.btn:active{transform:translateY(1px)}
+.btn-solid{background:var(--accent);color:#fff}
+.btn-solid:hover{background:var(--accent-hover)}
+.btn-ghost{background:rgba(244,242,237,.06);color:var(--bone);border:1px solid rgba(244,242,237,.35)}
+.btn-ghost:hover{border-color:var(--bone)}
+.hero-rating{
+  margin-top:34px;display:inline-flex;align-items:center;gap:12px;
+  padding:12px 18px;border-radius:var(--radius);
+  background:rgba(14,18,25,.68);border:1px solid rgba(244,242,237,.22);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  text-decoration:none;transition:border-color .25s;
+}
+.hero-rating:hover{border-color:var(--accent-soft)}
+.hero-rating .stars{color:#e8b64c;letter-spacing:2px;font-size:.95rem}
+.hero-rating .txt{font-size:.9rem;color:var(--text-on-dark)}
+.hero-rating .txt b{font-weight:700}
+
+/* ---------- sections ---------- */
+section{padding:96px 0}
+.sec-head{max-width:60ch;margin-bottom:48px}
+.sec-head h2{font-size:clamp(2.3rem,4.6vw,3.4rem)}
+.sec-head p{margin-top:12px;color:var(--text-dim);max-width:55ch}
+.light .sec-head p{color:var(--text-dark-dim)}
+
+/* services */
+#services{background:var(--ink);border-top:1px solid var(--line)}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.svc{
+  background:var(--ink-2);border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;display:flex;flex-direction:column;
+  transition:transform .3s ease,border-color .3s ease;
+}
+.svc:hover{transform:translateY(-5px);border-color:rgba(143,176,238,.45)}
+.svc-img{aspect-ratio:3/2;overflow:hidden}
+.svc-img img{width:100%;height:100%;object-fit:cover;filter:saturate(.82) contrast(1.05);transition:transform .5s ease;display:block}
+.svc:hover .svc-img img{transform:scale(1.05)}
+.svc-body{padding:20px 22px 26px}
+.svc-label{display:inline-flex;align-items:center;gap:8px;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-soft);margin-bottom:8px}
+.svc-label svg{width:15px;height:15px}
+.svc h3{font-size:1.65rem;color:var(--bone);margin-bottom:6px}
+.svc p{font-size:.95rem;color:var(--text-dim)}
+
+/* about */
+#about{background:var(--bone);color:var(--text-dark)}
+.about-grid{display:grid;grid-template-columns:5fr 6fr;gap:56px;align-items:center}
+.about-photo{position:relative}
+.about-photo img{width:100%;height:auto;display:block;border-radius:var(--radius);filter:saturate(.82) contrast(1.05)}
+.about-photo .tag{
+  position:absolute;left:0;bottom:-16px;background:var(--accent);color:#fff;
+  font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  padding:9px 16px;border-radius:var(--radius);
+}
+.about-copy h2{font-size:clamp(2.3rem,4.6vw,3.2rem);color:var(--ink)}
+.about-copy p{margin:16px 0;color:var(--text-dark-dim)}
+.checklist{list-style:none;margin-top:22px;display:grid;gap:12px}
+.checklist li{display:flex;gap:12px;align-items:flex-start;font-weight:500;color:var(--text-dark)}
+.checklist svg{width:22px;height:22px;flex:none;color:var(--accent);margin-top:2px}
+
+/* crew */
+#crew{background:var(--paper);color:var(--text-dark);border-top:1px solid var(--line-dark)}
+.crew-note{display:inline-block;font-size:.85rem;font-weight:600;color:var(--text-dark-dim);border:1px solid var(--line-dark);border-radius:var(--radius);padding:5px 12px;margin-bottom:26px}
+.crew-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.crew-card{border:1px solid var(--line-dark);border-radius:var(--radius);padding:32px 24px;text-align:center;background:#fff;transition:transform .3s}
+.crew-card:hover{transform:translateY(-4px)}
+.avatar{
+  width:84px;height:84px;border-radius:50%;margin:0 auto 16px;
+  background:var(--ink);border:3px solid var(--accent);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-size:1.9rem;color:var(--bone);font-weight:600;
+}
+.crew-card h3{font-size:1.5rem;color:var(--ink)}
+.crew-card span{font-size:.9rem;color:var(--text-dark-dim)}
+
+/* reviews */
+#reviews{background:var(--bone);color:var(--text-dark);border-top:1px solid var(--line-dark)}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:36px}
+.review-card{background:#fff;border:1px solid var(--line-dark);border-radius:var(--radius);padding:26px}
+.review-card .stars{color:#e8b64c;letter-spacing:3px;margin-bottom:12px;font-size:.95rem}
+.review-card p{font-size:.97rem;color:var(--text-dark);margin-bottom:16px}
+.review-card footer{font-size:.88rem;font-weight:600;color:var(--text-dark-dim)}
+.reviews-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.btn-dark{background:var(--ink);color:var(--bone)}
+.btn-dark:hover{background:var(--ink-2)}
+
+/* review banner */
+#review-banner{position:relative;padding:84px 0;background:var(--ink-3);overflow:hidden}
+#review-banner .bg{position:absolute;inset:0}
+#review-banner .bg img{width:100%;height:100%;object-fit:cover}
+#review-banner .bg::after{content:"";position:absolute;inset:0;background:rgba(14,18,25,.78)}
+.banner-inner{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap}
+.banner-inner h2{font-size:clamp(2rem,4vw,3rem);color:var(--bone);max-width:22ch}
+.banner-inner p{color:var(--text-dim);margin-top:8px;max-width:48ch}
+
+/* contact */
+#contact{background:var(--ink)}
+.contact-card{
+  background:var(--ink-2);border:1px solid var(--line);border-radius:var(--radius);
+  display:grid;grid-template-columns:1fr 1fr;overflow:hidden;
+}
+.contact-map{min-height:460px}
+.contact-map iframe{width:100%;height:100%;border:0;display:block;filter:grayscale(.25) contrast(1.05)}
+.contact-info{padding:40px 38px;display:flex;flex-direction:column;gap:14px}
+.contact-info h3{font-size:clamp(2rem,3.6vw,2.7rem);color:var(--bone);margin-bottom:6px}
+.contact-info>p{color:var(--text-dim);margin-bottom:10px;max-width:44ch}
+.contact-btns{display:grid;gap:12px;margin-bottom:16px}
+.contact-btns .btn{width:100%}
+.info-row{display:flex;align-items:flex-start;gap:14px;font-size:.95rem;color:var(--text-on-dark)}
+.info-row svg{width:20px;height:20px;flex:none;color:var(--accent-soft);margin-top:3px}
+.info-row a{text-decoration:none;color:var(--text-on-dark)}
+.info-row a:hover{color:var(--accent-soft)}
+.socials{display:flex;gap:12px;margin-top:14px}
+.socials a{
+  width:44px;height:44px;border:1px solid var(--line);border-radius:var(--radius);
+  display:flex;align-items:center;justify-content:center;color:var(--text-dim);
+  transition:color .25s,border-color .25s;
+}
+.socials a:hover{color:var(--bone);border-color:var(--accent-soft)}
+.socials svg{width:19px;height:19px}
+
+/* footer */
+footer.site{background:var(--ink-3);border-top:1px solid var(--line);padding:56px 0 34px}
+.foot-grid{display:flex;justify-content:space-between;gap:36px;flex-wrap:wrap;margin-bottom:38px}
+.foot-brand b{font-family:var(--display);font-size:1.8rem;font-weight:700;color:var(--bone);letter-spacing:.04em}
+.foot-brand b em{font-style:normal;color:var(--accent-strong)}
+.foot-brand p{color:var(--text-dim);font-size:.9rem;max-width:34ch;margin-top:8px}
+.foot-col h3{font-family:var(--body);font-size:.85rem;font-weight:700;color:var(--bone);margin-bottom:14px;letter-spacing:.06em;text-transform:uppercase}
+.foot-col ul{list-style:none;display:grid;gap:9px}
+.foot-col a{text-decoration:none;color:var(--text-dim);font-size:.92rem;transition:color .25s}
+.foot-col a:hover{color:var(--bone)}
+.foot-bottom{border-top:1px solid var(--line);padding-top:22px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.85rem;color:var(--text-dim)}
+
+/* reveals */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  .hero-slide{transition:none}
+  #intro{display:none}
+  .svc:hover,.crew-card:hover{transform:none}
+  .svc:hover .svc-img img{transform:none}
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:1000px){
+  .svc-grid,.crew-grid,.review-grid{grid-template-columns:repeat(2,1fr)}
+  .about-grid{grid-template-columns:1fr;gap:44px}
+  .contact-card{grid-template-columns:1fr}
+  .contact-map{min-height:320px;order:2}
+  .contact-info{order:1}
+}
+@media (max-width:720px){
+  .nav-links{display:none}
+  .logo span{display:none}
+  .burger{display:flex}
+  .nav-call span.lbl{display:none}
+  section{padding:68px 0}
+  .svc-grid,.crew-grid,.review-grid{grid-template-columns:1fr}
+  .hero h1{font-size:clamp(2.6rem,11.5vw,3.4rem)}
+  .hero-inner{padding:110px 20px 56px}
+  .hero-ctas .btn{width:100%}
+  .banner-inner{flex-direction:column;align-items:flex-start}
+  .contact-info{padding:30px 22px}
+}
+</style>
+</head>
+<body>
+<div aria-hidden="true" id="intro"><span>Matapu Bulk Transport</span></div>
+<header>
+<div class="wrap">
+<nav aria-label="Main" class="nav">
+<a class="logo" href="#top">
+<b>M.<em>B</em>.T</b>
+<span>Matapu Bulk Transport &amp; Welders</span>
+</a>
+<ul class="nav-links">
+<li><a href="#services">Services</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<a class="nav-call" href="tel:+64276533280">
+<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="16"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.7a2 2 0 0 1 1.6 2z"></path></svg>
+<span class="lbl">027 653 3280</span>
+</a>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu" class="burger">
+<svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="22"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+</button>
+</nav>
+</div>
+<div id="mobile-menu">
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+<a href="tel:+64276533280">Call 027 653 3280</a>
+</div>
+</header>
+<main id="top">
+<!-- HERO -->
+<section aria-label="Introduction" class="hero">
+<div aria-hidden="true" class="hero-slides">
+<div class="hero-slide on"><img alt="" fetchpriority="high" height="1200" src="img/hero-truck.jpg" width="1800"/></div>
+<div class="hero-slide"><img alt="" height="1013" loading="lazy" src="img/hero-field.jpg" width="1800"/></div>
+<div class="hero-slide"><img alt="" height="1200" loading="lazy" src="img/hero-harvest.jpg" width="1800"/></div>
+</div>
+<div aria-hidden="true" class="hero-scrim"></div>
+<div class="wrap hero-inner">
+<p class="hero-eyebrow">Kaponga, South Taranaki</p>
+<h1>Bulk cartage for South Taranaki farms</h1>
+<p>Fert, feed, maize and machinery carted out of Matapu, with welding and rust repairs done in the workshop.</p>
+<div class="hero-ctas">
+<a class="btn btn-solid" href="#contact">Get a quote</a>
+<a class="btn btn-ghost" href="tel:+64276533280">Call 027 653 3280</a>
+</div>
+<a class="hero-rating" href="https://maps.google.com/?cid=12730805984201557028" rel="noopener" target="_blank">
+<span aria-hidden="true" class="stars">★★★★★</span>
+<span class="txt"><b>4.7</b> rated on Google</span>
+</a>
+</div>
+</section>
+<!-- SERVICES -->
+<section id="services">
+<div class="wrap">
+<div class="sec-head reveal">
+<h2>What we cart and fix</h2>
+<p>Truck and trailer loads for the farm, and steel work in the shed. If it is bulk and it needs moving in South Taranaki, ring us first.</p>
+</div>
+<div class="svc-grid">
+<article class="svc reveal">
+<div class="svc-img"><img alt="Green pasture rows responding to fertiliser" height="599" loading="lazy" src="img/card-fert.jpg" width="900"/></div>
+<div class="svc-body">
+<span class="svc-label"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M12 22V8M5 12l7-4 7 4M3 22h18"></path></svg>Cartage</span>
+<h3>Bulk fertiliser</h3>
+<p>Fert and Osflo delivered to the farm or the paddock, timed around your spreading window.</p>
+</div>
+</article>
+<article class="svc reveal">
+<div class="svc-img"><img alt="Friesian dairy cow on pasture" height="600" loading="lazy" src="img/card-feed.jpg" width="900"/></div>
+<div class="svc-body">
+<span class="svc-label"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M12 22V8M5 12l7-4 7 4M3 22h18"></path></svg>Cartage</span>
+<h3>Stock feed deliveries</h3>
+<p>Full loads of feed to the bin or the feed pad, through the season and through the pinch.</p>
+</div>
+</article>
+<article class="svc reveal">
+<div class="svc-img"><img alt="Ripe grain heads in a crop" height="675" loading="lazy" src="img/card-blend.jpg" width="900"/></div>
+<div class="svc-body">
+<span class="svc-label"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M12 22V8M5 12l7-4 7 4M3 22h18"></path></svg>Cartage</span>
+<h3>Blend mix and meal</h3>
+<p>Blend mixes and meal picked up and carted in bulk, so your herd never waits on a load.</p>
+</div>
+</article>
+<article class="svc reveal">
+<div class="svc-img"><img alt="Young maize plants in rows" height="600" loading="lazy" src="img/card-maize.jpg" width="900"/></div>
+<div class="svc-body">
+<span class="svc-label"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M12 22V8M5 12l7-4 7 4M3 22h18"></path></svg>Cartage</span>
+<h3>Maize and harvest</h3>
+<p>Maize and harvest cartage that keeps up with the chopper, from paddock to stack.</p>
+</div>
+</article>
+<article class="svc reveal">
+<div class="svc-img"><img alt="Welder working with sparks flying" height="600" loading="lazy" src="img/card-weld.jpg" width="900"/></div>
+<div class="svc-body">
+<span class="svc-label"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M15 12l6-6-3-3-6 6M9 12l-6 6 3 3 6-6M14 7l3 3"></path></svg>Workshop</span>
+<h3>Welding and fabrication</h3>
+<p>Steel repairs and fabrication for farm gear, trailers and implements, done properly.</p>
+</div>
+</article>
+<article class="svc reveal">
+<div class="svc-img"><img alt="Machinist working at a workshop machine" height="600" loading="lazy" src="img/card-workshop.jpg" width="900"/></div>
+<div class="svc-body">
+<span class="svc-label"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M15 12l6-6-3-3-6 6M9 12l-6 6 3 3 6-6M14 7l3 3"></path></svg>Workshop</span>
+<h3>Rust and machinery repairs</h3>
+<p>Rust cut out and plated on cars, trucks and tractors, plus general machinery repair work.</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- ABOUT -->
+<section class="light" id="about">
+<div class="wrap about-grid">
+<div class="about-photo reveal">
+<img alt="Matapu Bulk Transport truck and trailer tipping a bulk load" height="720" loading="lazy" src="img/about-real-truck.jpg" width="720"/>
+<span class="tag">Our truck, our load</span>
+</div>
+<div class="about-copy reveal">
+<h2>Based at Matapu, working the whole district</h2>
+<p>Matapu Bulk Transport &amp; Welders runs truck and trailer units out of Lower Duthie Road, Kaponga. The work is bulk cartage for farms across South Taranaki: fertiliser, stock feed, blend mixes, maize and Osflo, plus machinery shifted when it needs to move.</p>
+<p>The welding side backs it up. Steel repairs, fabrication and rust work get done in the workshop, so the same crew that carts your load can fix the gear it lands in.</p>
+<ul class="checklist">
+<li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>Locally owned and operated at Matapu, Kaponga</li>
+<li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>Truck and trailer units for full bulk loads</li>
+<li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>Cartage and welding from the one yard</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- CREW -->
+<section id="crew">
+<div class="wrap">
+<div class="sec-head reveal">
+<h2 style="color:var(--ink)">Meet the crew</h2>
+</div>
+<span class="crew-note reveal">Example team, roles shown are typical for the business</span>
+<div class="crew-grid">
+<div class="crew-card reveal">
+<div class="avatar">OD</div>
+<h3>Owner / Driver</h3>
+<span>Runs the trucks and the bookings</span>
+</div>
+<div class="crew-card reveal">
+<div class="avatar">WF</div>
+<h3>Welder / Fabricator</h3>
+<span>Steel repairs, rust work and fabrication</span>
+</div>
+<div class="crew-card reveal">
+<div class="avatar">DI</div>
+<h3>Dispatch</h3>
+<span>Keeps loads and paperwork moving</span>
+</div>
+</div>
+</div>
+</section>
+<!-- REVIEWS -->
+<section class="light" id="reviews">
+<div class="wrap">
+<div class="sec-head reveal">
+<h2 style="color:var(--ink)">Rated 4.7 on Google</h2>
+<p>The cards below are example reviews while we wire up the live feed. The rating and the links are real, straight from the Google profile.</p>
+</div>
+<div class="review-grid">
+<article class="review-card reveal">
+<div aria-label="5 stars" class="stars">★★★★★</div>
+<p>"Rang about a load of fert on Tuesday, it was on the paddock Thursday morning before the rain came through. Can't ask for better than that."</p>
+<footer>G. Parker, dairy farmer, Manaia</footer>
+</article>
+<article class="review-card reveal">
+<div aria-label="5 stars" class="stars">★★★★★</div>
+<p>"They cart our maize every season and keep up with the chopper no trouble. Good honest operators who turn up when they say they will."</p>
+<footer>S. Kereama, Eltham</footer>
+</article>
+<article class="review-card reveal">
+<div aria-label="5 stars" class="stars">★★★★★</div>
+<p>"Had the feed trailer welded up after it cracked at the drawbar. Sorted in a couple of days and it has been solid since."</p>
+<footer>M. Thomson, Opunake</footer>
+</article>
+</div>
+<div class="reviews-actions reveal">
+<a class="btn btn-dark" href="https://maps.google.com/?cid=12730805984201557028" rel="noopener" target="_blank">See all our Google reviews</a>
+</div>
+</div>
+</section>
+<!-- REVIEW BANNER -->
+<section id="review-banner">
+<div aria-hidden="true" class="bg"><img alt="" height="1199" loading="lazy" src="img/banner-field.jpg" width="1600"/></div>
+<div class="wrap banner-inner reveal">
+<div>
+<h2>Happy with our work? Leave us a review</h2>
+<p>A quick review on Google helps other farmers around the mountain find us.</p>
+</div>
+<a class="btn btn-solid" href="https://search.google.com/local/writereview?placeid=ChIJBQTJ63ehFW0RJETAiJforLA" rel="noopener" target="_blank">Leave a Google review</a>
+</div>
+</section>
+<!-- CONTACT -->
+<section id="contact">
+<div class="wrap">
+<div class="sec-head reveal">
+<h2>Book a load or a repair</h2>
+</div>
+<div class="contact-card reveal">
+<div class="contact-map">
+<iframe allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Matapu%20Bulk%20Transport%20%26%20Welders%2C%20217%20Lower%20Duthie%20Road%2C%20Kaponga&amp;output=embed" title="Map showing Matapu Bulk Transport and Welders at 217 Lower Duthie Road, Kaponga"></iframe>
+</div>
+<div class="contact-info">
+<h3>Get hold of us</h3>
+<p>Ring for cartage quotes and welding jobs. If the phone goes to voicemail we are probably in the truck, leave a message and we will call back.</p>
+<div class="contact-btns">
+<a class="btn btn-solid" href="tel:+64276533280">
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="18"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.7a2 2 0 0 1 1.6 2z"></path></svg>
+              Call Matapu Bulk Transport
+            </a>
+<a class="btn btn-ghost" data-domain="gmail.com" data-gmail="" data-su="Quote%20request" data-user="matapubulktransport" href="#contact">
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="18"><rect height="16" rx="1" width="20" x="2" y="4"></rect><path d="m22 7-10 6L2 7"></path></svg>
+              Email Matapu Bulk Transport
+            </a>
+</div>
+<div class="info-row">
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.7a2 2 0 0 1 1.6 2z"></path></svg>
+<a href="tel:+64276533280">027 653 3280</a>
+</div>
+<div class="info-row">
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><rect height="16" rx="1" width="20" x="2" y="4"></rect><path d="m22 7-10 6L2 7"></path></svg>
+<span data-email-text="">email us</span>
+</div>
+<div class="info-row">
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<span>217 Lower Duthie Road, Kaponga 4675, Taranaki</span>
+</div>
+<div class="socials">
+<a aria-label="Matapu Bulk Transport and Welders on Facebook" href="https://www.facebook.com/matapubulktransport/" rel="noopener" target="_blank">
+<svg aria-hidden="true" fill="currentColor" viewbox="0 0 24 24"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.9h2.54V9.85c0-2.52 1.5-3.92 3.79-3.92 1.1 0 2.24.2 2.24.2v2.47H15.2c-1.25 0-1.64.78-1.64 1.57v1.89h2.78l-.44 2.9h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94z"></path></svg>
+</a>
+<a aria-label="Search for Matapu Bulk Transport on Instagram" href="https://www.instagram.com/explore/search/keyword/?q=matapu%20bulk%20transport" rel="noopener" target="_blank">
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><rect height="20" rx="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.6" cy="6.4" fill="currentColor" r="1.1" stroke="none"></circle></svg>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site">
+<div class="wrap">
+<div class="foot-grid">
+<div class="foot-brand">
+<b>M.<em>B</em>.T</b>
+<p>Matapu Bulk Transport &amp; Welders. Bulk cartage and welding, Kaponga, South Taranaki.</p>
+</div>
+<div class="foot-col">
+<h3>Site</h3>
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="foot-col">
+<h3>Legal</h3>
+<ul>
+<li><a href="terms.html">Terms &amp; Conditions</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="foot-col">
+<h3>Follow</h3>
+<div class="socials">
+<a aria-label="Matapu Bulk Transport and Welders on Facebook" href="https://www.facebook.com/matapubulktransport/" rel="noopener" target="_blank">
+<svg aria-hidden="true" fill="currentColor" viewbox="0 0 24 24"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.9h2.54V9.85c0-2.52 1.5-3.92 3.79-3.92 1.1 0 2.24.2 2.24.2v2.47H15.2c-1.25 0-1.64.78-1.64 1.57v1.89h2.78l-.44 2.9h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94z"></path></svg>
+</a>
+<a aria-label="Search for Matapu Bulk Transport on Instagram" href="https://www.instagram.com/explore/search/keyword/?q=matapu%20bulk%20transport" rel="noopener" target="_blank">
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><rect height="20" rx="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.6" cy="6.4" fill="currentColor" r="1.1" stroke="none"></circle></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="foot-bottom">
+<span>© <span id="year">2026</span> Matapu Bulk Transport &amp; Welders. All rights reserved.</span>
+<span>217 Lower Duthie Road, Kaponga, Taranaki</span>
+</div>
+</div>
+</footer>
+<script>
+(function(){
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // opening overlay
+  var intro = document.getElementById('intro');
+  if (intro) {
+    window.addEventListener('load', function(){ setTimeout(function(){ intro.classList.add('gone'); }, 650); });
+    setTimeout(function(){ intro.classList.add('gone'); }, 2200);
+    intro.addEventListener('transitionend', function(){ if (intro.classList.contains('gone')) { intro.remove(); } });
+  }
+
+  // hero rotation
+  var slides = document.querySelectorAll('.hero-slide');
+  if (slides.length > 1 && !reduced) {
+    var i = 0;
+    setInterval(function(){
+      slides[i].classList.remove('on');
+      i = (i + 1) % slides.length;
+      slides[i].classList.add('on');
+    }, 6000);
+  }
+
+  // scroll reveals
+  var revealed = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !reduced) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    revealed.forEach(function(el){ io.observe(el); });
+  } else {
+    revealed.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  // mobile menu
+  var burger = document.querySelector('.burger');
+  var menu = document.getElementById('mobile-menu');
+  if (burger && menu) {
+    burger.addEventListener('click', function(){
+      var open = menu.classList.toggle('open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    menu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); });
+    });
+  }
+
+  // gmail compose links + email text
+  document.querySelectorAll('a[data-gmail]').forEach(function(a){
+    var to = a.getAttribute('data-user') + '@' + a.getAttribute('data-domain');
+    a.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(to) + '&su=' + (a.getAttribute('data-su') || '') + '&body=' + (a.getAttribute('data-body') || '');
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+  var et = document.querySelector('[data-email-text]');
+  if (et) { et.textContent = 'matapubulktransport' + '@' + 'gmail.com'; }
+
+  // year
+  var y = document.getElementById('year');
+  if (y) { y.textContent = String(new Date().getFullYear()); }
+})();
+</script>
+</body>
+</html>

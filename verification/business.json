@@ -1,0 +1,34 @@
+{
+  "name": "Matapu Bulk Transport & Welders",
+  "phone": "+64276533280",
+  "email": "matapubulktransport@gmail.com",
+  "address": "217 Lower Duthie Road, Kaponga 4675",
+  "place_id": "ChIJBQTJ63ehFW0RJETAiJforLA",
+  "rating": "4.7",
+  "count": 3,
+  "social": [
+    "https://www.facebook.com/matapubulktransport/"
+  ],
+  "read_reviews": "https://search.google.com/local/reviews?placeid=ChIJBQTJ63ehFW0RJETAiJforLA",
+  "write_review": "https://search.google.com/local/writereview?placeid=ChIJBQTJ63ehFW0RJETAiJforLA",
+  "reviews": [
+    [
+      "Kalin Contracting",
+      5,
+      "a year ago",
+      "They are prompt, reliable and do a great job."
+    ],
+    [
+      "Dex Murray",
+      5,
+      "a year ago",
+      "Shot mbt (my dad btw)"
+    ],
+    [
+      "Joanne Murray",
+      4,
+      "Edited a year ago",
+      ""
+    ]
+  ]
+}

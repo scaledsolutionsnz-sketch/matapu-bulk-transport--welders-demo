@@ -1,0 +1,245 @@
+- generic
+  - generic "Google Maps"
+    - generic
+      - generic
+        - application "Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key." [ref=e1] focusable [tabindex]
+          - Canvas
+          - Canvas
+      - generic
+        - search
+          - generic
+            - form
+              - combobox [expanded=false, ref=e17]: Matapu Bulk Transport & Welders
+                - StaticText "Matapu Bulk Transport & Welders"
+            - button "Search" [ref=e18]
+            - button "Close" [ref=e19]
+      - region "Available search options for this area" [ref=e22]
+        - generic
+          - button "Restaurants" [ref=e28]
+            - generic
+              - StaticText "Restaurants"
+          - button "Hotels" [ref=e29]
+            - generic
+              - StaticText "Hotels"
+          - button "Things to do" [ref=e30]
+            - generic
+              - StaticText "Things to do"
+          - button "Transit" [ref=e31]
+            - generic
+              - StaticText "Transit"
+          - button "Parking" [ref=e32]
+            - generic
+              - StaticText "Parking"
+          - button "Pharmacies" [ref=e33]
+            - generic
+              - StaticText "Pharmacies"
+          - button "ATMs" [ref=e34]
+            - generic
+              - StaticText "ATMs"
+        - button "Next page" [ref=e35]
+      - generic
+        - generic
+          - generic
+            - list
+              - listitem [level=1]
+                - button "Menu" [ref=e23]
+              - listitem [level=1]
+                - button "Saved" [ref=e24]
+                  - StaticText "Saved"
+              - listitem [level=1]
+                - button "Recents" [ref=e25]
+                  - StaticText "Recents"
+              - listitem [level=1]
+                - button "Matapu Bulk Transport & Welders" [ref=e26]
+                  - generic
+                  - StaticText "Matapu Bulk Transport & Welders"
+              - listitem [level=1]
+                - button "Get app" [ref=e27]
+                  - StaticText "Get app"
+          - main "Matapu Bulk Transport & Welders" [ref=e36]
+            - generic
+              - generic
+                - button "Photo of Matapu Bulk Transport & Welders" [ref=e47]
+                  - image
+                - button "See photos" [ref=e59]
+                  - StaticText "See photos"
+              - heading "Matapu Bulk Transport & Welders" [level=1, ref=e37]
+              - generic
+                - generic
+                  - image "4.7 stars "
+                  - image "3 reviews"
+                    - StaticText "(3)"
+              - button "Trucking company" [ref=e48]
+              - tablist
+                - tab "Overview of Matapu Bulk Transport & Welders" [selected, ref=e60]
+                  - generic
+                - tab "Reviews for Matapu Bulk Transport & Welders" [ref=e61]
+                  - generic
+              - region "Actions for Matapu Bulk Transport & Welders" [ref=e38]
+                - button "Directions" [ref=e62]
+                  - StaticText "Directions"
+                - button "Save" [ref=e63]
+                  - StaticText "Save"
+                - button "Nearby" [ref=e64]
+                  - StaticText "Nearby"
+                - button "Send to phone" [ref=e65]
+                  - StaticText "Send to phone"
+                - button "Share" [ref=e66]
+                  - StaticText "Share"
+              - region "Information for Matapu Bulk Transport & Welders" [ref=e39]
+                - generic
+                  - button "Address: 217 Lower Duthie Road, Kaponga 4675 " [ref=e67]
+                    - StaticText "217 Lower Duthie Road, Kaponga 4675"
+                  - button "Copy address" [ref=e92]
+                - generic
+                  - button "Phone: 027 653 3280 " [ref=e68]
+                    - StaticText "027 653 3280"
+                  - generic
+                    - button "Copy phone number" [ref=e93]
+                    - link "Call phone number" [ref=e94]
+                - generic
+                  - button "Plus code: G5PW+2X Kaponga" [ref=e69]
+                    - StaticText "G5PW+2X Kaponga"
+                  - generic
+                    - button "Copy plus code" [ref=e95]
+                    - button "Learn more about plus codes" [ref=e96]
+              - button "Suggest an edit" [ref=e49]
+                - StaticText "Suggest an edit"
+              - heading "Add missing information" [level=2, ref=e40]
+              - button "More info" [ref=e41]
+              - generic
+                - button "Add hours" [ref=e50]
+                  - generic
+                    - StaticText "Add hours"
+              - generic
+                - button "Add website" [ref=e51]
+                  - generic
+                    - StaticText "Add website"
+              - heading "Photos" [level=2, ref=e42]
+              - button "Street View" [ref=e52]
+                - LabelText
+              - button "31 Photos" [ref=e53]
+                - LabelText
+                  - StaticText "31 Photos"
+              - button "Add photos & videos" [ref=e54]
+                - StaticText "Add photos & videos"
+              - heading "Review summary" [level=2, ref=e43]
+              - button "More information about the review summary" [ref=e44]
+              - LayoutTable
+                - image "5 stars, 2 reviews"
+                  - StaticText "5"
+                - image "4 stars, 1 review"
+                  - StaticText "4"
+                - image "3 stars, 0 reviews"
+                  - StaticText "3"
+                - image "2 stars, 0 reviews"
+                  - StaticText "2"
+                - image "1 stars, 0 reviews"
+                  - StaticText "1"
+              - StaticText "4.7"
+              - image "4.7 stars"
+              - button "3 reviews" [ref=e45]
+                - generic [ref=e55] clickable [cursor:pointer]
+                  - StaticText "3 reviews"
+              - button "Write a review" [ref=e56]
+                - StaticText "Write a review"
+              - generic
+                - generic
+                  - heading "Reviews" [level=2, ref=e70]
+                  - button "Search reviews" [ref=e75]
+              - button "Sort reviews" [ref=e57]
+                - StaticText "Sort"
+              - generic
+                - button "Photo of Kalin Contracting" [ref=e76]
+                - generic
+                  - button "Kalin Contracting 1 review · 1 photo" [ref=e77]
+                    - StaticText "Kalin Contracting"
+                    - StaticText "1 review · 1 photo"
+                  - button "Actions for Kalin Contracting's review" [ref=e78]
+                - image "5 stars"
+                - StaticText "a year ago"
+                - StaticText "Matapu Bulk has helped us on a number of jobs over a long period of time. They are prompt, reliable and do a great job."
+                - button "Photo 1 on Kalin Contracting's review" [ref=e79]
+                - button "1 like" [ref=e71]
+                  - generic [ref=e80] clickable [cursor:pointer]
+                    - StaticText "1"
+                - button "Share Kalin Contracting's review." [ref=e72]
+                  - generic [ref=e81] clickable [cursor:pointer]
+                    - StaticText "Share"
+                - generic
+                  - StaticText "Response from the owner a year ago"
+                - StaticText "That's fantastic to hear! Thanks for the kind words. We really appreciate your business and are committed to providing prompt,  reliable, and top-notch service on every job."
+              - generic
+                - button "Photo of Dex Murray" [ref=e82]
+                - generic
+                  - button "Dex Murray 1 review" [ref=e83]
+                    - StaticText "Dex Murray"
+                    - StaticText "1 review"
+                  - button "Actions for Dex Murray's review" [ref=e84]
+                - image "5 stars"
+                - StaticText "a year ago"
+                - StaticText "Shot mbt (my dad btw)"
+                - button "1 like" [ref=e73]
+                  - generic [ref=e85] clickable [cursor:pointer]
+                    - StaticText "1"
+                - button "Share Dex Murray's review." [ref=e74]
+                  - generic [ref=e86] clickable [cursor:pointer]
+                    - StaticText "Share"
+              - generic
+                - button "Photo of Joanne Murray" [ref=e87]
+                - generic
+                  - button "Joanne Murray Local Guide · 24 reviews · 32 photos" [ref=e88]
+                    - StaticText "Joanne Murray"
+                    - StaticText "Local Guide · 24 reviews · 32 photos"
+                  - button "Actions for Joanne Murray's review" [ref=e89]
+                - image "4 stars"
+                - StaticText "Edited a year ago"
+                - generic
+                  - button "Nearly done ! well done Trev great job " [ref=e90]
+                  - button "Photo 2 on Joanne Murray's review" [ref=e91]
+              - link "About this data" [ref=e58]
+                - generic
+                  - StaticText "About this data"
+              - StaticText "You're seeing a limited view of Google Maps."
+              - button "See more" [ref=e46]
+        - button "Collapse side panel" [ref=e11]
+      - generic
+        - button "Google apps" [expanded=false, ref=e20]
+          - StaticText "  "
+        - link "Sign in" [ref=e3]
+          - StaticText "  "
+          - StaticText "Sign in"
+      - generic
+        - generic
+        - generic
+          - generic
+            - button "Show Your Location" [ref=e12]
+          - generic [ref=e4] clickable [cursor:pointer]
+            - generic
+              - button "Zoom in" [ref=e21]
+            - button "Zoom out" [ref=e13]
+        - generic
+          - generic [ref=e5] clickable [cursor:pointer]
+            - button "Browse Street View images" [ref=e14]
+          - button "Street View" [ref=e6]
+        - generic
+        - generic
+          - generic [ref=e15] clickable [cursor:pointer]
+            - LabelText
+              - StaticText "Layers"
+          - button "Layers" [expanded=false, ref=e16]
+        - generic
+          - generic
+            - image
+            - image
+            - image
+            - image
+      - contentinfo
+        - StaticText "Map data ©2026 Google"
+        - button "New Zealand" [ref=e7]
+        - button "Terms" [ref=e8]
+        - button "Privacy" [ref=e9]
+        - button "Send Product Feedback" [ref=e10]
+      - button "100 m" [ref=e2]
+        - LabelText
+          - StaticText "100 m"
